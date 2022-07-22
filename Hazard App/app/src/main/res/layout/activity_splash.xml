@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="280dp"
+        android:layout_height="257dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/applogo" />
+
+    <TextView
+        android:id="@+id/splash"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="61dp"
+        android:gravity="center_horizontal"
+        android:text="Hazards App"
+        android:textSize="20dp"
+        android:textColor="#FF3700B3"
+        android:shadowColor="#000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="7"/>
+
+</RelativeLayout>
